@@ -1,1 +1,1 @@
-function copyAppLink(){var currentURL=window.location.href;var appLinkInput=document.getElementById('appLinkInput');appLinkInput.value=currentURL;appLinkInput.select();document.execCommand('copy');alert('Web app link ready to be shared!');}
+function copyAppLink(){var currentURL=window.location.href;var appLinkInput=document.getElementById('appLinkInput');appLinkInput.value=currentURL;appLinkInput.select();document.execCommand('copy');alert('Web app link copied to the clipboard 📋 and ready to be shared!')}
