@@ -35,3 +35,4 @@ label[for="mode"]{font-family:"Segoe UI",Arial,sans-serif;color:gray}.input-boxe
 to{bottom:20px}}
 @keyframes slideDown{from{bottom:20px}
 to{bottom:0px}}
+@media(max-width:600px){.pill-container{bottom:10px;width:90%;padding:8px 10px;flex-direction:row;flex-wrap:wrap;justify-content:space-between}.pill-container.coordinate-text{font-size:14px;max-width:60%}.pill-container button{margin-left:5px;padding:6px 12px;flex:1 1 auto;max-width:30%}.pill-container button.cancel,.pill-container button.maps{width:28px;height:28px;flex:none}.pill-container button.maps img{width:14px;height:14px}}
